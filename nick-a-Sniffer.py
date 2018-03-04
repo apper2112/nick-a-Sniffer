@@ -54,7 +54,7 @@ class Window(Frame):
 		# LEFT PANEL, CHANGE PADY HERE FOR DIFFERENT SCREEN RESOLUTIONS
 		labela = Label(self, relief='flat')
 		labela.grid(row=0, column=0)
-		labela.config(text="This program uses scapy to do an arp scan of your local network\nIt must be installed for this to work")
+		labela.config(text="This program uses stuff to do an arp scan of your local network\nStuff must be installed for this to work")
 		labela.config(wraplength=270, justify=CENTER, padx=25, pady=20, font=('Purisa', 12,))
 		
 		# BUTTON RELIEF IS RAISED, SOLID, GROOVE, FLAT, SUNKEN, OR RIDGE
