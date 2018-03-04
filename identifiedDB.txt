@@ -1,0 +1,15 @@
+
+------------------------- DATABASE -----------------------------
+
+This is an example database which you need to add entries
+manually for now. This is the scapyDB.txt file. 
+
+4k:3c:03:02:f6:46...........Router
+5k:01:ci:1f:bg:20...........Dads Phone
+50:6a:03:05:f5:53...........Smart tv
+40:3c:03:02:f3:37...........Mums Laptop
+gk:3c:03:02:fs:k8...........Sisters Tablet
+4f:3c:03:02:fh:m9...........CCTV
+02:3c:03:02:fp:l7...........Raspberry Pie
+ci:3c:03:02:ft:p2...........Android Box
+----------------------------------------------------------------
