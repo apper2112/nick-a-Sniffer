@@ -82,7 +82,7 @@ class Window(Frame):
 				self.write(str(line) + '\n')
 
 	# WRITE SCAN RESULTS TO FILE
-	# SUBPROCESS NEEDS EXACT FILE PATH TO BASH SCRIPT
+	# SUBPROCESS NEEDS EXACT FILE PATH TO BASH SCRIPT. YOU MUST CHANGE THIS TO SUIT YOURS
 	def sctofile(self):
 		lines = open('arpNEW.txt', 'w')
 		row = subprocess.check_output(["/home/andy/Desktop/anick/arpSCAN.sh"])
@@ -142,7 +142,7 @@ class Window(Frame):
 		self.lb_tasks.delete(0, END)
 
 root = Tk()
-root.geometry("1000x700")
+root.geometry("1000x700") # FOR LOW RES SCREENS TRY 900X600
 root.resizable(0, 0) # LOCKS THE WINDOW SIZE
 app = Window(root)
 root.mainloop()
